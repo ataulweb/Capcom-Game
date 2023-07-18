@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;500;600;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap');
+
+/* Universal style */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* Work Sans font from google font */
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Shared style */
+
+
+
+/* navigation section */
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    background: #FFF; 
+    padding: 20px 150px;
+}
+
+.logo-item img{
+    object-fit: cover;
+    margin-right: 15px;
+}
+.logo-item{
+    display: flex;
+    align-items: center;
+}
+.logo-text{
+    font-size: 2.5rem;
+    font-weight: 700; 
+}
+.logo-text span{
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.navigation-container a{
+    color: #3C354F;
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px;
+}
+.follow-text{
+    padding: 15px 40px;
+    border-radius: 5px;
+    background: rgba(11, 2, 35, 0.10); 
+}
+
